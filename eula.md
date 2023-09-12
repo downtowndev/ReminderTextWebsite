@@ -1,6 +1,6 @@
 END USER LICENSE AGREEMENT
 
-Last updated August 20, 2022
+Last updated September, 2023
 
 
 
@@ -34,6 +34,7 @@ TABLE OF CONTENTS
 15. INTELLECTUAL PROPERTY RIGHTS
 16. APPLICABLE LAW
 17. MISCELLANEOUS
+18. SMS TERMS & CONDITIONS
 
 
 1. THE APPLICATION
@@ -190,3 +191,5 @@ This License Agreement is governed by the laws of the State of California exclud
 17.2  Collateral agreements, changes and amendments are only valid if laid down in writing. The preceding clause can only be waived in writing.
 
 17.3  A paid subscription to Reminder Text grants the user unlimited reminders. If it is determined that a user is abusing the unlimited reminders with malicious intent, the user may have limits placed on their account or the user may be banned from using the application. Determination of abuse and malicious intent is left solely to the Reminder Text development team.
+
+18. ReminderText offers the option to our customers to receive reminders via sms text message. Message frequency varies based on ReminderText app usage. Message and data rates may apply. Reply HELP for help. Reply STOP to cancel. This is a best effort service. We are not liable for any losses from a failed reminder. Carriers and Andrew Sverdrup are not liable for any delays or undelivered messages.
