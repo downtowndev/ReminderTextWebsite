@@ -8,4 +8,4 @@ We use industry leading services to ensure we can provide the most reliable serv
 * Your cell provider is experiencing network issues.
 * You don't have good cell service in your current location.
 
-We place high importance on doing all we can to ensure every reminder is successfully delivered. We are comitted to providing the most reliable SMS service possible and we hope you enjoy using Reminder Text!
+When a reminder is undelivered, it will remain displayed in the scheduled reminders list in the app with a "Reminder Failed" label for 24 hours. We place high importance on doing all we can to ensure every reminder is successfully delivered. We are comitted to providing the most reliable SMS service possible and we hope you enjoy using Reminder Text!
