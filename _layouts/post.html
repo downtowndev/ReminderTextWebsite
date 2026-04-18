@@ -1,0 +1,17 @@
+---
+layout: default
+full_width: true
+body_class: blog-post
+---
+<section class="content-shell">
+  <article class="content-card prose post-article">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span aria-hidden="true">•</span>
+      <span>{{ page.author | default: "ReminderText Team" }}</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+    <p><a href="{{ '/blog/' | relative_url }}">Back to blog</a></p>
+  </article>
+</section>

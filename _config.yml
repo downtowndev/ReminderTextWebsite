@@ -1,1 +1,19 @@
-theme: jekyll-theme-slate
+title: ReminderText
+description: Schedule reliable SMS reminders in seconds with ReminderText for iOS and Android.
+url: "https://downtowndev.github.io"
+baseurl: "/ReminderTextWebsite"
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed
+
+ios_app_url: "https://apps.apple.com/us/app/reminder-text-sms-reminders/id1605497429"
+android_app_url: "https://play.google.com/store/apps/details?id=dev.downtown.remindertext"
+support_email: "remindertextappteam@gmail.com"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post

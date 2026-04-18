@@ -1,3 +1,9 @@
+---
+title: Undelivered Reminders
+permalink: /undelivered-reminders
+description: Information about why reminder SMS messages may not be delivered.
+---
+
 # Undelivered Reminders
 
 We use industry leading services to ensure we can provide the most reliable service possible. Despite our best efforts, we cannot guarentee every reminder is delivered successfully. Undelivered messages are uncommon, however some reasons a message may not be delivered are:

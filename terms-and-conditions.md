@@ -1,3 +1,9 @@
+---
+title: Terms and Conditions
+permalink: /terms-and-conditions
+description: ReminderText terms and conditions.
+---
+
 TERMS AND CONDITIONS
 
 Last updated August 02, 2024

@@ -1,0 +1,21 @@
+{% assign home_url = '/' | relative_url %}
+<header class="site-header">
+  <div class="shell site-header-inner">
+    <a class="brand" href="{{ home_url }}" aria-label="ReminderText home">
+      <img src="{{ '/assets/AppIcon1024_1024.png' | relative_url }}" alt="ReminderText app icon" width="40" height="40" loading="lazy">
+      <span class="brand-text">ReminderText</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="{{ home_url }}#features">Features</a>
+      <a href="{{ home_url }}#how-it-works">How It Works</a>
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <a href="{{ home_url }}#faq">FAQ</a>
+      <a href="{{ '/support' | relative_url }}">Support</a>
+    </nav>
+
+    <div class="header-downloads">
+      {% include download-buttons.html class='download-buttons-compact' %}
+    </div>
+  </div>
+</header>

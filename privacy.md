@@ -1,3 +1,9 @@
+---
+title: Privacy Policy
+permalink: /privacy
+description: ReminderText privacy policy.
+---
+
 PRIVACY POLICY    
 
 Last updated September, 2023
