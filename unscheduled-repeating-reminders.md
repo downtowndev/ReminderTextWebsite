@@ -1,3 +1,9 @@
+---
+title: Unscheduled Repeating Reminders
+permalink: /unscheduled-repeating-reminders
+description: Information about errors scheduling the next occurrence of repeating reminders.
+---
+
 # Unscheduled Repeating Reminders
 
 When a repeating reminder is sent, the next occurrence of the reminder is scheduled. If there is an error scheduling the next occurrence, an error message is displayed in the "Scheduled Reminders" page of the app. We will periodically attempt to schedule the next occurrence of the reminder. To manually resolve the issue, you may pause and subsequently unpause the reminder. If the issue persists, please send us an email at remindertextappteam@gmail.com and we will investigate it.

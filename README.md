@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# ReminderText Website
 
-You can use the [editor on GitHub](https://github.com/downtowndev/ReminderTextWebsite/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Marketing site and legal documentation for ReminderText, built as a GitHub Pages Jekyll site.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Local Development
 
-### Markdown
+### 1. Install dependencies
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+bundle install
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### 2. Run the site locally
 
-### Jekyll Themes
+```bash
+bundle exec jekyll serve
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/downtowndev/ReminderTextWebsite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### 3. Open in browser
 
-### Support or Contact
+Because `_config.yml` sets `baseurl: /ReminderTextWebsite`, open:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- `http://127.0.0.1:4000/ReminderTextWebsite/`
+
+## Build
+
+```bash
+bundle exec jekyll build
+```
+
+This writes the generated site to `_site/`.
+
+## Content Structure
+
+- Home page: `index.md`
+- Blog index: `blog/index.md`
+- Blog posts: `_posts/`
+- Shared layouts: `_layouts/`
+- Shared partials: `_includes/`
+- Styles: `assets/css/main.css`
+- Legal/support pages: root `*.md` documents (for stable URLs)

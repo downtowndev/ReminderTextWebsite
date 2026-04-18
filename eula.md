@@ -1,3 +1,9 @@
+---
+title: End User License Agreement
+permalink: /eula
+description: ReminderText End User License Agreement for iOS and Android.
+---
+
 END USER LICENSE AGREEMENT
 
 Last updated September, 2023
